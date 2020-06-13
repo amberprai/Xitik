@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "../allcss/Navbar2.css"
-import "../css/new-age.min.css"
 import "../vendor/bootstrap/css/bootstrap-grid.css"
 import "../vendor/bootstrap/css/bootstrap-grid.min.css"
 import "../vendor/bootstrap/css/bootstrap-reboot.css"
