@@ -63,7 +63,7 @@ const Contact =() => {
    <>
   <section id="contact-form">
     <h2>Contact</h2>
-  <form id="contact" name="contact" accept-charset="utf-8" onSubmit={handleSubmit()}>
+  <form id="contact" name="contact" accept-charset="utf-8" onSubmit={handleSubmit}>
     <label><span>Name</span><input name="name" type="text" placeholder="Name" onChange={e => setName(e.target.value)}/></label>
     <label><span>Email</span><input name="email" type="email" placeholder="Email" onChange={e => setEmail(e.target.value)}/></label>
     <label><span>Message</span><textarea name="message" placeholder="Query" onChange={e => setmessage(e.target.value)}></textarea></label>
