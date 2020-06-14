@@ -46,7 +46,7 @@ const Contact =() => {
     e.preventDefault()
     addMessage();
     
-    toast("Enquiry Submitted",{type:"error"});
+    toast("Enquiry Submitted",{type:"success"});
 
      history.push("/");
   }
