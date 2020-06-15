@@ -87,6 +87,7 @@ html {
     }
     #contact-form h2 {
       margin-left: 17.2661%;
+      text-align: center;
     }
     #contact-form form, #contact-form aside {
       vertical-align: top;

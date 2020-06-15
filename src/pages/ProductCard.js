@@ -3,7 +3,7 @@ import {Card , CardBody, CardTitle, ListGroup, ListGroupItem, CardImg} from "rea
 
 const ProductCard= (product) =>{
     return(
- <Card border="success"  className="ml-5 mt-5" style={{ width: '25rem', padding: "20px" }}>
+ <Card border="success"  className="ml-5 mt-5 mr-5" style={{ width: '25rem', padding: "20px" }}>
     <CardImg variant="top" src={product.pic}/>
     <CardTitle tag="h3">{product.name}</CardTitle>
     <ListGroup className="flush" >

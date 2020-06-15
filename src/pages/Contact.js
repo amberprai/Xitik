@@ -61,7 +61,7 @@ const Contact =() => {
 
     return(
    <>
-  <section id="contact-form">
+  <section id="contact-form" className="pr-5">
     <h2>Contact</h2>
   <form id="contact" name="contact" accept-charset="utf-8" onSubmit={handleSubmit}>
     <label><span>Name</span><input name="name" type="text" placeholder="Name" onChange={e => setName(e.target.value)}/></label>
@@ -69,10 +69,6 @@ const Contact =() => {
     <label><span>Message</span><textarea name="message" placeholder="Query" onChange={e => setmessage(e.target.value)}></textarea></label>
     <input name="submit" type="submit" value="Send"/>
   </form>
-  <aside className="ml-4 mt-5">
-    <h3> OR </h3>
-    <p>Simply drop an mail to technoism2018@gmail.com</p>
-  </aside>
 </section>
         </>
     )

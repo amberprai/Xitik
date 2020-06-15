@@ -28,7 +28,7 @@ import "../vendor/bootstrap/css/bootstrap.min.css"
               <div class="device">
                 <div class="screen">
                    {/*TODO:  image*/ }
-                  <img src={Img} class="mr-4" alt="" width="450" height="450"/>
+                  <img src={Img} class="pr-5" alt="" width="400" height="350"/>
                 </div>
                 <div class="button">
                 </div>

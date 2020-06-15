@@ -7,7 +7,8 @@ import "../vendor/bootstrap/css/bootstrap-reboot.min.css"
 import "../vendor/bootstrap/css/bootstrap.css"
 import "../vendor/bootstrap/css/bootstrap.min.css"
 import logo from "../img/logonew.png"
-import { NavbarToggler, Collapse } from 'reactstrap';
+import { NavbarToggler, Collapse, Nav, NavItem,NavLink } from 'reactstrap';
+
 
 
 
@@ -24,25 +25,29 @@ import { NavbarToggler, Collapse } from 'reactstrap';
         <div class="container">
        <a href="/">  <img src={logo}  width="70" height="50" align="left" className=" ml-3"/></a>
           <a class="navbar-brand " href="/"><b>Xitik Technoism</b></a>
-          <NavbarToggler onClick={toggle}/>
+          <div className="ml-auto ">
+          <NavbarToggler onClick={toggle}style={{color:"white"}} className="mr-5">Menu </NavbarToggler>
           <Collapse isOpen={isOpen} navbar>
-          <div class="collapse navbar-collapse" id="navResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link " href="/#download">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/admin">Admin Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/product">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/contact">Contact</a>
-              </li>
+            <Nav navbar >
+          
+            <ul class="navbar-nav ml-auto" style={{textIndent:"center"}} >
+              <NavItem className="nav-item " >
+                <NavLink  href="/#download" >About</NavLink >
+              </NavItem>
+              <NavItem class="nav-item">
+                <NavLink   href="/admin" >Admin Login</NavLink >
+              </NavItem>
+              <NavItem class="nav-item">
+                <NavLink   href="/product" >Products</NavLink >
+              </NavItem>
+              <NavItem class="nav-item">
+                <NavLink   href="/contact" >Contact</NavLink >
+              </NavItem>
             </ul>
-          </div>
+   
+          </Nav>
           </Collapse>
+          </div>
           </div>
       </nav>
       </body>

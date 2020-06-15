@@ -51,11 +51,12 @@ p {
 	transition: all .35s;
 	font-family: Catamaran, Helvetica, Arial, sans-serif;
 	font-weight: 200;
-	letter-spacing: 1px
+	letter-spacing: 1px;
+	
 }
 
 #mainNav .navbar-brand {
-	color: #fd5852;
+	color: #f1f1f1;
 	font-family: Catamaran, Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	letter-spacing: 10px
@@ -80,23 +81,23 @@ p {
 }
 
 #mainNav .navbar-nav>li>a.active {
-	color: #fdcc52!important;
+	color: #eee9dd!important;
 	background-color: transparent
 }
 
 #mainNav .navbar-nav>li>a.active:hover {
 	background-color: transparent
 }
-
 #mainNav .navbar-nav>li>a,
 #mainNav .navbar-nav>li>a:focus {
-	color: #222
+color: rgb(224, 215, 215)
 }
 
 #mainNav .navbar-nav>li>a:focus:hover,
 #mainNav .navbar-nav>li>a:hover {
-	color: #fdcc52
+color: #fdcc52
 }
+
 
 @media (min-width:992px) {
 	#mainNav {
@@ -112,7 +113,7 @@ p {
 	}
 	#mainNav .navbar-nav>li>a,
 	#mainNav .navbar-nav>li>a:focus {
-		color: rgba(255, 255, 255, .7)
+		color: rgba(255, 250, 250, 0.7)
 	}
 	#mainNav .navbar-nav>li>a:focus:hover,
 	#mainNav .navbar-nav>li>a:hover {
@@ -123,20 +124,15 @@ p {
 		background-color: #fff
 	}
 	#mainNav.navbar-shrink .navbar-brand {
-		color: #222
+		color: rgb(241, 227, 227)
 	}
-	#mainNav.navbar-shrink .navbar-brand:focus,
-	#mainNav.navbar-shrink .navbar-brand:hover {
-		color: #fdcc52
-	}
-	#mainNav.navbar-shrink .navbar-nav>li>a,
-	#mainNav.navbar-shrink .navbar-nav>li>a:focus {
-		color: #222
-	}
+	
 	#mainNav.navbar-shrink .navbar-nav>li>a:focus:hover,
 	#mainNav.navbar-shrink .navbar-nav>li>a:hover {
 		color: #fdcc52
 	}
+	
+
 }
 .bg-primary {
 	background: #fdcc52;
