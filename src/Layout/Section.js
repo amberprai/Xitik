@@ -47,7 +47,7 @@ import smart from "../img/Quality.png"
               <div class="device">
                 <div class="mr-2">
                  
-                  <img src={smart} class="pr-4" alt="" width="400" height="400"/>
+                  <img src={smart} class="img-fluid" alt="" width="400" height="400"/>
                 </div>
                 <div class="button">
                

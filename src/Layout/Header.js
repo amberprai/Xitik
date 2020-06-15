@@ -24,16 +24,10 @@ import "../vendor/bootstrap/css/bootstrap.min.css"
         </div>
         <div class="col-lg-5 my-auto">
           <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
                 <div class="screen">
                    {/*TODO:  image*/ }
-                  <img src={Img} class="pr-5" alt="" width="400" height="350"/>
+                  <img src={Img} class="img-fluid pr-5" alt="house" />
                 </div>
-                <div class="button">
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

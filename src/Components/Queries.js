@@ -28,20 +28,21 @@ const deleteQuery= () =>{
     
     <div className="text-primary pl-1">{messages.name}</div>
     
-    <div className="text-secondary pl-2">{messages.email}</div>
-    <div className="text-info pl-2">{messages.message}</div>
+    <div className="text-secondary pl-2"> | {messages.email} |</div>
+    <div className="text-info pl-2">"{messages.message}"</div>
     </Col>
-    <Col md="2" className="d-flex justify-content-center align-items-center">
-            <MdDelete
-            onClick={() => deleteQuery()}
-            color="danger"
-            className="text-danger icon"
-          />
     <Col >
     <Row md="4">
     <h6 className="text-info pl-5">{messages.newTime} IST</h6>
     </Row>
     </Col>
+    <Col md="3" className="d-flex justify-content-center align-items-center">
+            <MdDelete size="25"
+            onClick={() => deleteQuery()}
+            color="danger"
+            className="text-danger icon"
+          />
+    
             
           </Col>
         </Row>

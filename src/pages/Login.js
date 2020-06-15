@@ -42,8 +42,8 @@ const Login = () => {
 
 
     return (
-        <Container className='text-center mt-5 mb-5'>
-        <Row>
+        <Container className='text-center pt-5 mb-5'>
+        <Row className='text-center pt-5 mb-5'>
             <Col lg={6} className='offset-lg-3 mt-5'>
                 <Card>
                     <Form onSubmit={handleSubmit}>
@@ -82,7 +82,7 @@ const Login = () => {
                         </CardBody>
                         <CardFooter>
                             <Row>
-                            <Button type='submit' block color='primary'>
+                            <Button type='submit' block color='success' className="mr-5">
                                 Sign In
                             </Button>
                             </Row>

@@ -61,8 +61,8 @@ const Contact =() => {
 
     return(
    <>
-  <section id="contact-form" className="pr-5">
-    <h2>Contact</h2>
+  <section id="contact-form" >
+    <h2 className="mt-5">Contact</h2>
   <form id="contact" name="contact" accept-charset="utf-8" onSubmit={handleSubmit}>
     <label><span>Name</span><input name="name" type="text" placeholder="Name" onChange={e => setName(e.target.value)}/></label>
     <label><span>Email</span><input name="email" type="email" placeholder="Email" onChange={e => setEmail(e.target.value)}/></label>
