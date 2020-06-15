@@ -6,7 +6,7 @@ const ProductCard6= () =>{
         <>
         <Row>
 <Col sm="6">
- <Card border="success"  className="ml-10 mt-5" style={{ width: '25rem', padding: "20px" }}>
+ <Card border="success"  className="ml-5 mt-5" style={{ width: '25rem', padding: "20px" }}>
  <CardImg variant="top" src={pic12}/>
  <CardTitle tag="h3">SMART DOOR LOCK</CardTitle>
  <ListGroup className="flush" >
