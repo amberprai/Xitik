@@ -21,6 +21,8 @@ import { SET_QUERY } from './context/action.types';
 import {XitikContext} from './context/Context'
 import { Container } from 'reactstrap';
 import Login from './pages/Login';
+import PicSlideShow from './Components/PicSlideShow';
+import Contactus from './pages/Contactus';
 
 //  DONE initialize FIREBASE
 firebase.initializeApp(firebaseConfig)
@@ -56,9 +58,10 @@ function App() {
     <Switch>
       <Route exact path ="/" component= {Home} />
       <Route exact path ="/product" component= {Product} />
-      <Route exact path ="/contact" component= {Contact} />
+      <Route exact path ="/query" component= {Contact} />
       <Route exact path ="/admin" component= {Login} />
       <Route exact path ="/queries" component={QueryPage} />
+      <Route exact path ="/contactus" component={Contactus} />
       <Route exact path ="*" component= {PageNotFound} />
     </Switch>
        <Footer/>

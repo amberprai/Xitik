@@ -6,7 +6,8 @@ import "../vendor/bootstrap/css/bootstrap-reboot.css"
 import "../vendor/bootstrap/css/bootstrap-reboot.min.css"
 import "../vendor/bootstrap/css/bootstrap.css"
 import "../vendor/bootstrap/css/bootstrap.min.css"
-import logo from "../img/logonew.png"
+import logo from "../img/logo2.png"
+import {AiOutlineBars} from "react-icons/ai"
 import { NavbarToggler, Collapse, Nav, NavItem,NavLink } from 'reactstrap';
 
 
@@ -18,33 +19,30 @@ import { NavbarToggler, Collapse, Nav, NavItem,NavLink } from 'reactstrap';
   const toggle= () => setisOpen(!isOpen);
 
     return(
-      
   <html>
     <body>
-        <nav class="navbar navbar-expand-lg  fixed-top bg-dark " id="mainNav">
+        <nav class="navbar navbar-expand-lg  fixed-top " style={{backgroundColor: "#3c0e4f"}} id="mainNav">
         <div class="container">
-       <a href="/">  <img src={logo}  width="70" height="50" align="left" className=" ml-3"/></a>
-          <a class="navbar-brand " href="/"><b>Xitik Technoism</b></a>
+        <a href="/">  <img src={logo}  width="210" height="80" align="left" className="ml-3"/></a>
           <div className="ml-auto ">
-          <NavbarToggler onClick={toggle}style={{color:"white"}} className="mr-5">Menu </NavbarToggler>
+          <NavbarToggler onClick={toggle} style={{color:"white", backgroundColor:"#d35400"}} className="mr-5"><AiOutlineBars/></NavbarToggler>
           <Collapse isOpen={isOpen} navbar>
             <Nav navbar >
-          
             <ul class="navbar-nav ml-auto" style={{textIndent:"center"}} >
-              <NavItem className="nav-item " >
-                <NavLink  href="/#download" >About</NavLink >
+              <NavItem className="nav-item">
+                <NavLink  href="/" >Home</NavLink >
               </NavItem>
               <NavItem class="nav-item">
-                <NavLink   href="/admin" >Admin Login</NavLink >
+                <NavLink   href="/product">Products</NavLink >
               </NavItem>
               <NavItem class="nav-item">
-                <NavLink   href="/product" >Products</NavLink >
+                <NavLink   href="/query">Query</NavLink >
               </NavItem>
               <NavItem class="nav-item">
-                <NavLink   href="/contact" >Contact</NavLink >
+                <NavLink   href="/contactus">Contact Us</NavLink >
               </NavItem>
+            
             </ul>
-   
           </Nav>
           </Collapse>
           </div>

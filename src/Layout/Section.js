@@ -10,18 +10,16 @@ import rc from "../img/rc.jpg"
 import rx from "../img/rx.jpg"
 import ce from "../img/ce.png"
 import fc from "../img/fc.png"
-import {FaBuilding } from "react-icons/fa"
+import {FaBuilding,FaRupeeSign} from "react-icons/fa"
 import { RiEqualizerLine } from "react-icons/ri";
-import demo from "../img/demo-screen-1.jpg"
-import smart from "../img/Quality.png"
+
+
 
  const Section = () =>{
 
     return (
 <html>
   <body>
-
-  
  <section class="download bg-primary text-center" id="download">
     <div class="container">
       <div class="row">
@@ -41,35 +39,25 @@ import smart from "../img/Quality.png"
         <hr/>
       </div>
       <div class="row">
-        <div class="col-lg-4 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="mr-2">
-                 
-                  <img src={smart} class="img-fluid" alt="" width="400" height="400"/>
-                </div>
-                <div class="button">
-               
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8 my-auto">
+        <div class="col-lg-20">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item ml-3">
-                  <i class="icon-screen-smartphone text-primary"></i>
-                  <FaBuilding size="100" style={{color: 'purple'}}/>
-                  <h3>Our Infrastructure</h3>
-                  <p class="text-muted">Smart products at advanced infrastructure after procuring the finest raw materials from our reliable vendors.faster completion of consignments owing to the hi-tech machinery installed.!</p>
+            <div class="col-lg-3">
+                <div class="feature-item ">
+                  <FaRupeeSign size="100" style={{color: 'purple'}}/>
+                  <h3>Great Value</h3>
+                  <p class="text-muted">We offer competitive pricing on our variety of products.</p>
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-camera text-primary"></i>
+                <div class="feature-item ">
+                  <FaBuilding size="100" style={{color: 'purple'}}/>
+                  <h3>Advance Infrastructure</h3>
+                  <p class="text-muted">Smart products made at advanced infrastructure after procuring the finest raw materials from our reliable vendors.</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="feature-item ">
                   <RiEqualizerLine size="100" style={{color: 'purple'}}/>
                   <h3>Quality Testing</h3>
                   <p class="text-muted">Our all product comes under warranty and qualified with international certification.</p>

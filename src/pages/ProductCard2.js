@@ -3,21 +3,21 @@ import {Card , CardBody, CardTitle, ListGroup, ListGroupItem, CardImg} from "rea
 
 const ProductCard2= (product) =>{
     return(
- <Card border="success"  className="ml-5 mt-5" style={{ width: '25rem', padding: "20px" }}>
+ <Card border="success"  className="ml-1 mt-5" style={{ width: '20rem', padding: "15px" }}>
     <CardImg variant="top" src={product.pic}/>
     <CardTitle tag="h3">{product.name}</CardTitle>
     <ListGroup className="flush" >
-    <ListGroupItem color="success">Certification : {product.certification}</ListGroupItem>
-    <ListGroupItem color="success">Switches       : {product.switches}</ListGroupItem>
-    <ListGroupItem color="success">Connectivity        : {product.connectivity}</ListGroupItem>
-    <ListGroupItem color="success">Panel Material        : {product.panel}</ListGroupItem>
-    <ListGroupItem color="success">Voltage        : {product.voltage}</ListGroupItem>
-    <ListGroupItem color="success">Switch Indicator        : {product.indicator}</ListGroupItem>
-    <ListGroupItem color="success">Size        : {product.size}</ListGroupItem>
-    <ListGroupItem color="success">Switch Rated Load      : {product.load}</ListGroupItem>
-    <ListGroupItem color="success">Compatible       : {product.compatible}</ListGroupItem>
-    <ListGroupItem color="success">Color        : {product.color}</ListGroupItem>
-    <ListGroupItem color="success">Warranty        : {product.warranty}</ListGroupItem>
+    <ListGroupItem color="primary">Certification : {product.certification}</ListGroupItem>
+    <ListGroupItem color="primary">Switches       : {product.switches}</ListGroupItem>
+    <ListGroupItem color="primary">Connectivity        : {product.connectivity}</ListGroupItem>
+    <ListGroupItem color="primary">Panel Material        : {product.panel}</ListGroupItem>
+    <ListGroupItem color="primary">Voltage        : {product.voltage}</ListGroupItem>
+    <ListGroupItem color="primary">Switch Indicator        : {product.indicator}</ListGroupItem>
+    <ListGroupItem color="primary">Size        : {product.size}</ListGroupItem>
+    <ListGroupItem color="primary">Switch Rated Load      : {product.load}</ListGroupItem>
+    <ListGroupItem color="primary">Compatible       : {product.compatible}</ListGroupItem>
+    <ListGroupItem color="primary">Color        : {product.color}</ListGroupItem>
+    <ListGroupItem color="primary">Warranty        : {product.warranty}</ListGroupItem>
     </ListGroup>
 </Card>
     )

@@ -1,5 +1,5 @@
 import React from 'react';
-import Img from "../img/house.jpeg"
+import Img from "../img/housePics.png"
 import "../allcss/Header2.css"
 import "../vendor/bootstrap/css/bootstrap-grid.css"
 import "../vendor/bootstrap/css/bootstrap-grid.min.css"
@@ -7,33 +7,25 @@ import "../vendor/bootstrap/css/bootstrap-reboot.css"
 import "../vendor/bootstrap/css/bootstrap-reboot.min.css"
 import "../vendor/bootstrap/css/bootstrap.css"
 import "../vendor/bootstrap/css/bootstrap.min.css"
+import Homefile from '../Components/Homefile';
+import { Container } from 'reactstrap';
 
 
 
  const Header  = () =>{
 
     return (     
+      <>
     <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-lg-7 my-auto">
-          <div class="header-content mx-auto">
-            <h1 class="mb-5"><b>Phones are Smart , Humans are Smart , We make Homes Smart</b></h1>
-            <a href="/product" class="btn btn-outline btn-xl js-scroll-trigger">Explore Now !</a>
+    <Homefile />
+        <div class="col-lg-20">
+          <div class="header-content " style={{textAlign : "center"}}>
+            <h1 class="mb-4"><b>"Welcome to Xitik"</b></h1>
+            <a href="/product" class="btn btn-outline btn-xl js-scroll-trigger ">Explore Now !</a>
           </div>
         </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-                <div class="screen">
-                   {/*TODO:  image*/ }
-                  <img src={Img} class="img-fluid pr-5" alt="house" />
-                </div>
-          </div>
-        </div>
-      </div>
-     </div>
      </header>
-  
+  </>
     )
 
 }

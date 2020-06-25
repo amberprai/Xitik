@@ -46,7 +46,7 @@ const Login = () => {
         <Row className='text-center pt-5 mb-5'>
             <Col lg={6} className='offset-lg-3 mt-5'>
                 <Card>
-                    <Form onSubmit={handleSubmit}>
+                    <Form onSubmit={handleSubmit} style={{height: "100bh"}}>
                         <CardHeader className=''>Admin SignIn</CardHeader>
                         <CardBody>
                             <FormGroup row>
@@ -91,6 +91,11 @@ const Login = () => {
                 </Card>
             </Col>
         </Row>
+        <hr/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
     </Container>
     )
 }
