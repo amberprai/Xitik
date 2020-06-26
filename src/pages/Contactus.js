@@ -17,10 +17,10 @@ const Contactus =() => {
         textAlign: 'center', marginLeft: "auto",marginRight: "auto" }}
         className="mb-2 mt-5 pt-5"
          >
-        <CardHeader style={{color:"white",backgroundColor: "#2B2B52",position: "center" }} >
+        <CardHeader style={{color:"white",backgroundColor: "#2B2B52"}} >
             <Row >
-             <FcContacts size="70" className="ml-2"/>
-             <h1 className="ml-2 mt-3"><b> Quick Contact </b> </h1>
+             <FcContacts size="60" className="ml-3"/>
+             <h3 className="ml-2 mt-3"><b> Quick Contact </b> </h3>
              </Row>
              </CardHeader>
      
@@ -29,7 +29,7 @@ const Contactus =() => {
       <Row>
         <Col
           md="1"
-          className="d-flex justify-content-center align-items-center"
+          className="d-flex justify-content-center align-items-center "
         >
         </Col>
         <Col md="8">

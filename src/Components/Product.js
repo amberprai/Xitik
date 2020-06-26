@@ -27,7 +27,7 @@ const Product = () =>{
         <br/>        
         <PicSlideShow />
         <Card style={{ width: 'auto', 
-        textAlign: 'center' }}
+        textAlign: 'center', marginLeft: "auto",marginRight: "auto"}}
         className="mb-2"
          >
         <CardHeader style={{color:"white",backgroundColor: "#2B2B52"}} > <h1 className=" text-center  ml-2"><b> Product Gallery </b> </h1></CardHeader>
@@ -47,20 +47,20 @@ const Product = () =>{
         </Row>
         <br/>
         <Row >
-        <Col xs="auto" lg={true} className="ml-4 ">
+        <Col xs="auto" lg={true} className=" ">
         <ProductCard2 pic={pic1} name="TOUCH WIFI ON/OFF + WI-FI FAN + DIMMER" certification="ROHS | FCC | SAA | CE " switches="4 (Normal)+ 1 (Fan)" connectivity="Wi-Fi" panel="Tempered Glass material"
         voltage="110-240 V" indicator="Available" size="146*86*38 mm" load="1000 Watt/Gang (Normal)+ 600 Watt (Fan)" 
         compatible="Alexa /Google Assistant" color="White/Black" warranty="1 year"
         />
         </Col>
         
-        <Col xs="auto" lg={true} className="ml-4" >
+        <Col xs="auto" lg={true} className="" >
         <ProductCard2 pic={pic2} name="TOUCH WIFI ON/OFF 8G" certification="ROHS | FCC | SAA | CE " switches="8" connectivity="Wi-Fi" panel="Tempered Glass material"
         voltage="110-240 V" indicator="Available" size="146*86*38 mm" load="600 Watt/Gang" 
         compatible="Alexa /Google Assistant" color="White/Black" warranty="1 year"
         />
         </Col>
-        <Col xs="auto" lg={true} className="ml-4" >
+        <Col xs="auto" lg={true} className="" >
         <ProductCard3 pic={pic3} name="TOUCH WIFI ON/OFF SOCKET+SWITCH" certification="ROHS | FCC | SAA | CE " switches="4" socket ="1" connectivity="Wi-Fi" panel="Tempered Glass material"
         voltage="110-240 V" indicator="Available" size="147*86*38 mm" sload="600 Watt/Gang" soload="16A"
         compatible="Alexa /Google Assistant" color="White/Black" warranty="1 year"
@@ -70,20 +70,20 @@ const Product = () =>{
         <br/>
         
         <Row>
-        <Col  xs="auto" lg={true} className="ml-4">
+        <Col  xs="auto" lg={true} className="">
         <ProductCard4 pic={pic8} name="WI-FI ON/OFF SWITCH MODULE+CONTROLLER" certification="ROHS | FCC |CE " module="1G/2G/3G/4G/6G" connectivity="Wi-Fi"
         voltage="110-240 V" indicator="Available"  rload="600 W" rcurrent="10 A"
          color="White" warranty="1 year" comp="Alexa /Google assistant"
         />
         </Col>
-        <Col  xs="auto" lg={true} className="ml-4">
+        <Col  xs="auto" lg={true} className="">
         <ProductCard4 pic={pic7} name="WI-FI ON/OFF MCB" certification="ROHS | FCC |CE " module="1P/2P/3P/4P" connectivity="Wi-Fi"
         voltage="110-240 V" indicator="Available"  rload="3000 W" rcurrent="30 A"
          color="White" warranty="1 year" comp="Alexa /Google assistant"
         />
         </Col>
         
-        <Col  xs="auto" lg={true} className="ml-4">
+        <Col  xs="auto" lg={true} className="">
         <ProductCard4 pic={pic9} name="WI-FI ON/OFF SWITCH MODULE" certification="ROHS | FCC |CE " module="1G/2G/3G/4G" connectivity="Wi-Fi"
         voltage="110-240 V" indicator="Available"  rload="2300 W" rcurrent="10 A"
          color="White" warranty="1 year" comp="Alexa /Google assistant"
@@ -92,13 +92,13 @@ const Product = () =>{
         </Row>
         <br/>
         <Row>
-        <Col xs="auto" lg={true} className="ml-4">
+        <Col xs="auto" lg={true} className="">
         <ProductCard4 pic={pic10} name="DIAMOND SHAPE TOUCH WI-FI ON/OFF SWITCH" certification="ROHS | FCC |CE " module="1G/2G/3G" connectivity="Wi-Fi"
         voltage="110-240 V" indicator="Available"  rload="2200 Watt/Gang" rcurrent="---"
          color="White/Black" warranty="1 year"
         />
         </Col>
-        <Col xs="auto" lg={true} className="ml-4">
+        <Col xs="auto" lg={true} className="">
         <ProductCard4 pic={pic11} name="REMOTE CONTROL SWITCH" certification="BIS" module="---" connectivity="RF"
         voltage="110-240 V" indicator="No"  rload="2200 Watt/Gang" rcurrent="10 A"
          color="White" warranty="1 year" comp="---"

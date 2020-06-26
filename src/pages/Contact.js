@@ -62,7 +62,7 @@ const Contact =() => {
     return(
    <>
   <section id="contact-form" >
-    <h2 className="mt-5">Query</h2>
+    <h1 className="mt-5 text-center">Query</h1>
   <form id="contact" name="contact" accept-charset="utf-8" onSubmit={handleSubmit}>
     <label><span>Name</span><input name="name" type="text" placeholder="Name" onChange={e => setName(e.target.value)}/></label>
     <label><span>Email</span><input name="email" type="email" placeholder="Email" onChange={e => setEmail(e.target.value)}/></label>
