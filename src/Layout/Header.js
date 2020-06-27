@@ -17,11 +17,11 @@ import { Container } from 'reactstrap';
     return (     
       <>
     <header class="masthead">
-    <Homefile />
+    <Homefile/>
         <div class="col-lg-20">
-          <div class="header-content " style={{textAlign : "center" , fontFamily : "Arial Black"}}>
-            <h1 style={{color:"white"}}><b>"Welcome to Xitik"</b></h1>
-            <h4 class="mb-4" style={{color:"white"}}><b>Light your dreamhouse with us</b></h4>
+          <div class="header-content " style={{textAlign : "center" }}>
+            <h1 style={{color:"white", fontFamily : "Arial "}}><b>"Welcome to Xitik"</b></h1>
+            <h4 class="mb-4" style={{color:"white", fontFamily : "Arial "}}><b>Light your dreamhouse with us</b></h4>
             <a href="/product" class="btn btn-outline btn-xl js-scroll-trigger ">Explore Now !</a>
           </div>
         </div>

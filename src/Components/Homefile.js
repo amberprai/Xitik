@@ -35,12 +35,12 @@ const Homefile=() => {
           </div>
           <div className="each-slide">
             <div >
-                <img src={home3} className="img-fluid pl-2"/>
+                <img src={home3} className="img-fluid pl-2 pr-2"/>
             </div>
           </div>
           <div className="each-slide">
             <div >
-                <img src={home4} className=" img-fluid pl-2"/>
+                <img src={home4} className=" img-fluid pl-2 pr-2"/>
             </div>
           </div>
           

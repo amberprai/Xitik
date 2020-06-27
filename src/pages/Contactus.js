@@ -11,7 +11,7 @@ import { Row, Col, Container, Card, CardBody, CardHeader } from 'reactstrap'
 const Contactus =() => {
     return (
         <>
-    
+
          <Container>
         <Card style={{ width: 'auto', 
         textAlign: 'center', marginLeft: "auto",marginRight: "auto" }}
@@ -24,8 +24,9 @@ const Contactus =() => {
              </Row>
              </CardHeader>
      
-        <CardBody >
+        <CardBody  >
     <hr/>
+        
       <Row>
         <Col
           md="1"

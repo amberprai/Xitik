@@ -33,7 +33,7 @@ const PicSlideShow = () => {
         textAlign: 'center' }}
         className="mb-2"
          >
-        <CardHeader style={{color:"white",backgroundColor: "#2B2B52"}} > <h1 className=" text-center  ml-2"><b> Checkout Our Smart Products Here</b> </h1></CardHeader>
+        <CardHeader style={{color:"white",backgroundColor: "#2B2B52"}} > <h1 className=" text-center  ml-2" style={{color:"white"}}><b> Checkout Our Smart Products Here</b> </h1></CardHeader>
      <CardBody >
       <div className="slide-container">
       <Container>
