@@ -1,7 +1,7 @@
 import React from 'react'
 import firebase from "firebase/app"
 import {toast} from "react-toastify"
-import { Col, Row, Container } from 'reactstrap'
+import { Col, Row, Container, Card, CardHeader, CardBody } from 'reactstrap'
 import { MdDelete } from "react-icons/md";
 
 
@@ -21,34 +21,41 @@ const deleteQuery= () =>{
 }
 
     return (
-      <Container>
-        <div className="mt-5 ml-5 mb-5">
-        <Row>
-            <Col md="10" className="d-flex justify-content-center align-items-center ">
-    
-    <div className="text-primary pl-1">{messages.name}</div>
-    
-    <div className="text-secondary pl-2"> | {messages.email} |</div>
-    <div className="text-info pl-2">"{messages.message}"</div>
-    </Col>
-    <Col >
-    <Row md="4">
-    <h6 className="text-info pl-5">{messages.newTime} IST</h6>
-    </Row>
-    </Col>
-    <Col md="3" className="d-flex justify-content-center align-items-center">
+      <>
+         
+       <Row>
+         <Col
+           md="1"
+           className="d-flex justify-content-center align-items-center mt-3 "
+         >
+         </Col>
+         <Col md="8">
+          <Row>
+              <div className="text-info ml-2"><h6>{messages.name}</h6></div>
+          </Row>
+          <Row>
+              <div className="text-info ml-2"><h6> {messages.email}</h6></div>
+          </Row>
+        
+ 
+          <Row>
+              <div className="text-info ml-2"><h6>"{messages.message}"</h6></div>
+          </Row>
+         
+ 
+          <Row>
+              <div className="text-info ml-2"><h6>{messages.newTime}</h6></div>
+          </Row>
+          <Col md="3" className="d-flex justify-content-center align-items-center">
             <MdDelete size="25"
             onClick={() => deleteQuery()}
             color="danger"
-            className="text-danger icon"
-          />
+            className="text-danger icon"/>
+           </Col>
+           </Col>
+           </Row>
     
-            
-          </Col>
-        </Row>
-
-        </div>
-        </Container>
+     </>
     
     )
 }

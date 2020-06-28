@@ -13,7 +13,7 @@ import ProductCard2 from '../pages/ProductCard2';
 import ProductCard3 from '../pages/ProductCard3';
 import ProductCard4 from '../pages/ProductCart4';
 import spec from "../img/Product1Spec.PNG"
-import { Card, CardHeader, CardBody } from 'reactstrap';
+import { Card, CardHeader, CardBody, CardText } from 'reactstrap';
 
 
 const Product4 = () =>{
@@ -43,6 +43,21 @@ const Product4 = () =>{
 </div>
         </CardBody>
 </Card>
+<Card
+    style={{ width: 'auto', 
+    textAlign: 'center' }}
+    className="mb-2"
+    color="warning" 
+    className="ml-1 mr-1 mb-3"
+  >
+  <CardHeader style={{color:"white"}}> *Note*</CardHeader>
+    <CardBody >
+      <CardText style={{color:"white"}} >
+        Prices are not mentioned on the website as it varies according to quantity. Please Submit the query on Query page or simply drop an mail to "technoism2018@gmail.com".
+      </CardText>
+    </CardBody>
+
+  </Card>
 </>
    
     )

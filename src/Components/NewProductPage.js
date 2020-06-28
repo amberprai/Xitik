@@ -52,7 +52,8 @@ const NewProductPage = () => {
                     </div> 
                 </li> 
             
-                <li class="list-group-item">
+                <li class="list-group-itey
+                m">
             
                     <div class="media align-items-lg-center flex-column flex-lg-row p-2">
                         <div class="media-body order-2 order-lg-1">
