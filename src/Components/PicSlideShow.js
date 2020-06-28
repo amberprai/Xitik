@@ -9,7 +9,16 @@ import pic8 from "../img/product4.PNG"
 import pic9 from "../img/product5.PNG"
 import pic10 from "../img/product6.PNG"
 import pic11 from "../img/product7.PNG"
-import home4 from "../img/home4.jpg"
+import p1 from "../img/12new.png"
+import p2 from "../img/2new.png"
+import p3 from "../img/3new.png"
+import p4 from "../img/mcbnew.png"
+import p5 from "../img/5new.png"
+import p6 from "../img/6new.png"
+import p7 from "../img/7new.png"
+import p8 from "../img/8new.png"
+import p9 from "../img/1.png"
+import p11 from "../img/11.png"
 import { Container, Card,CardHeader,  CardBody} from 'reactstrap'
 import { Slide } from 'react-slideshow-image';
 
@@ -40,48 +49,48 @@ const PicSlideShow = () => {
         <Slide {...properties}>
         <div className="each-slide">
             <div >
-                <img src={led} className="img-fluid pl-3" height="auto" width="500"
+                <img src={p1} className="img-fluid pl-3" height="auto" width="300"
              />
             </div>
           </div>
           <div className="each-slide">
             <div >
-                <img src={pic1} className="img-fluid  pl-3"/>
+                <img src={p2} className="img-fluid  pl-3" width="150"/>
             </div>
           </div>
           <div className="each-slide">
             <div >
-                <img src={pic2} className="img-fluid  pl-3"/>
+                <img src={p3} className="img-fluid  pl-3" width="400"/>
             </div>
           </div>
           <div className="each-slide">
             <div >
-                <img src={pic3} className="img-fluid  pl-3"/>
+                <img src={p4} className="img-fluid  pl-3" width="400" />
             </div>
           </div>
           <div className="each-slide">
             <div >
-                <img src={pic7} className="img-fluid  pl-3"/>
+                <img src={p5} className="img-fluid  pl-3" height="auto" width="400" />
             </div>
           </div>
           <div className="each-slide">
             <div >
-                <img src={pic8} className="img-fluid  pl-3"/>
+                <img src={p6} className="img-fluid  pl-3" width="300"/>
             </div>
           </div>
           <div className="each-slide">
             <div >
-                <img src={pic9} className="img-fluid  pl-3"/>
+                <img src={p7} className="img-fluid  pl-3" width="300"/>
             </div>
           </div>
           <div className="each-slide">
             <div >
-                <img src={pic10} className="img-fluid  pl-3"/>
+                <img src={p8} className="img-fluid  pl-3" width="200"/>
             </div>
           </div>
           <div className="each-slide">
             <div >
-                <img src={pic11} className="img-fluid  pl-3"/>
+                <img src={p11} className="img-fluid  pl-3" width="250"/>
             </div>
           </div>
           
