@@ -15,7 +15,7 @@ const QueryPage = () => {
            
          <Card style={{ width: 'auto', 
          textAlign: 'center', marginLeft: "auto",marginRight: "auto" }}
-         className=" mt-5 pt-5"
+         className="mb-2 mt-5 pt-5"
           >
          <CardHeader style={{color:"white",backgroundColor: "#2B2B52"}} >
              <Row >
