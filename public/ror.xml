@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://xitiktechnoism.netlify.app/</title>
+  <link>https://xitiktechnoism.netlify.app/</link>
+
+<item>
+     <link>https://xitiktechnoism.netlify.app/</link>
+     <title>Xitik Technoism</title>
+     <description>Xitik Technoism</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
